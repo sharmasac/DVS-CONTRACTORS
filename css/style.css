@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.logo {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 50%;
+    border: 2px solid white;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+
+}
+
+.nav-list {
+    width: 70%;
+
+
+}
+
+.navbar ul {
+    display: flex;
+
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+.nav-list li a:hover {
+    color: gray;
+}
+
+.right-nav {
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+.right-nav h1{
+    text-align: center;
+}
+
+.dvscontractors {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(../img/risee.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 85%;
+}
+
+.secondHalf {
+    width: 30%;
+}
+
+.secondHalf img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 4px solid white;
+    border-radius: 150px;
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.text-big {
+    font-size: 31px;
+}
+
+.text-small {
+    font-size: 16px;
+}
+
+
+.section {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+}
+
+.section-left {
+    flex-direction: row-reverse;
+
+}
+
+
+.sectionTag {
+    font-size: 50px;
+    padding: 16px 0;
+}
+
+.sectionSubTag {
+    font-family: 'Heebo', sans-serif;
+}
+
+.thumbnail img {
+    width: 250px;
+    border: 3px solid gray;
+    border-radius: 12px;
+    margin-top: 19px;
+}
+
+
+.paras {
+    padding: 30px;
+    margin: 40px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.contact {
+    background-color: #d7d4da1a;
+    height: 600px;
+
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.text-center {
+    font-family: 'Heebo', sans-serif;
+    padding: 30px;
+    font-size: 40px;
+    margin: auto;
+}
+
+.input {
+    width: 70%;
+    height: 40px;
+    padding: 5px;
+    margin: 8px 0px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    box-shadow: 2px 1px grey;
+    background-color: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.textArea {
+    height: 25%;
+}
+
+.subBtn {
+
+    width: 80px;
+    font-size: 20px;
+    border: 3px solid gray;
+    border-radius: 6px;
+    box-shadow: 1px 1px grey;
+    cursor: pointer;
+    margin: 5px 0
+}
+
+.footer {
+    text-align: center;
+    height: 90px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footerData {
+    font-family: 'Heebo', sans-serif;
+    padding: 10px 0;
+    font-size: 1.5vw;
+}
+
+.social-logo {
+    padding: 0px 3px;
+
+
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+
+
+/* contact pages css are given below.. */
+
+.work-images {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    ;
+    font-weight: bold;
+    padding: 23px 0px;
+    background-color: #d2c9d64f;
+}
+
+.w-images {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+
+}
+
+.images {
+
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 100px 80px;
+    border: 4px solid rgb(97, 96, 96);
+    border-radius: 4px;
+    box-shadow: 2px 3px black;
+}
+
+/* about pages css are given below.. */
+
+
+.aboutUs {
+    display: flex;
+
+   
+    background-color: #d2c9d64f;
+    width: 100%;
+    
+}
+
+.ceo-img img {
+    width: 290px;
+    height: 470px;
+    border: 2px solid black;
+    margin: 20px 0px ;
+    border-radius: 8px;
+}
+
+.ceo-img {
+    width: 50%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-details{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.c-email{
+    margin: 20px;
+}
+.c-address{
+    margin: 20px;
+}
+
+.c-number{
+    margin: 20px;
+}
+
+@media only screen and (max-width:1063px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .nav-list li {
+        padding: 4px 0px;
+
+    }
+
+    .right-nav button {
+        margin: 6px 0px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 300px;
+
+    }
+
+    .right-nav {
+        text-align: center;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+        text-align: center;
+
+    }
+
+    .secondHalf {
+        margin-top: 50px;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-navResp {
+        height: 52px;
+    }
+
+    .v-classResp {
+        opacity: 0;
+    }
+
+    .firstSection {
+        height: 50vh;
+    }
+
+
+
+    .text-big {
+        text-align: center;
+    }
+
+    .text-small {
+        text-align: center;
+    }
+
+    .subBtn {
+        text-align: center;
+    }
+
+    .paras {
+        padding: 0px 1px;
+    }
+
+    .section {
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .footer {
+        height: 100px;
+    }
+
+    .social-logo {
+        width: 2vw;
+    }
+
+    .w-images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .images {
+        width: 20vw;
+        height: 30vh;
+        margin: 20px;
+    }
+    .aboutUs{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   
+
+}
